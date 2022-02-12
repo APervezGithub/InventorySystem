@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "CookingGame",
+			"Path": "C:\\ArshSSD\\Projects\\Unreal\\Real\\CookingGame\\CookingGame 5.0\\Source\\CookingGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CookingGameEditor",
+			"Path": "C:\\ArshSSD\\Projects\\Unreal\\Real\\CookingGame\\CookingGame 5.0\\Source\\CookingGameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

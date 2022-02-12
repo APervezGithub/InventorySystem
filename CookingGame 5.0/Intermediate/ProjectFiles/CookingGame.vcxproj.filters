@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CookingGame.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{9C86D04F-389F-41EF-9F6C-49A8A77F60C4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CookingGame.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CookingGameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.ignore" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{06C50ADA-5B7E-4B45-B0BE-55C1878BE82E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\CookingGame">
+      <UniqueIdentifier>{C2DB45A9-4640-4654-ADAE-4B9169466966}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CookingGame\CookingGame.Build.cs">
+      <Filter>Source\CookingGame</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CookingGame\CookingGame.cpp">
+      <Filter>Source\CookingGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CookingGame\CookingGame.h">
+      <Filter>Source\CookingGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CookingGame\CookingGameCharacter.cpp">
+      <Filter>Source\CookingGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CookingGame\CookingGameCharacter.h">
+      <Filter>Source\CookingGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CookingGame\CookingGameGameMode.cpp">
+      <Filter>Source\CookingGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CookingGame\CookingGameGameMode.h">
+      <Filter>Source\CookingGame</Filter>
+    </ClInclude>
+    <Filter Include="Source\CookingGame\Private">
+      <UniqueIdentifier>{5B2FA74A-790D-45EC-B8F0-F3D0FA5B2598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CookingGame\Private\Character">
+      <UniqueIdentifier>{CBD22D69-7E7E-4074-91F7-45D501B949F9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CookingGame\Private\Character\CookingGameController.cpp">
+      <Filter>Source\CookingGame\Private\Character</Filter>
+    </ClCompile>
+    <Filter Include="Source\CookingGame\Private\Floats">
+      <UniqueIdentifier>{3BFAC40F-9481-4A13-B4AF-E052016B793C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CookingGame\Private\Floats\Ship.cpp">
+      <Filter>Source\CookingGame\Private\Floats</Filter>
+    </ClCompile>
+    <Filter Include="Source\CookingGame\Private\Interact">
+      <UniqueIdentifier>{5AC063AE-3B95-424E-B079-9CD7C2C48863}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CookingGame\Private\Interact\InteractableBase.cpp">
+      <Filter>Source\CookingGame\Private\Interact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CookingGame\Private\Interact\InteractInterface.cpp">
+      <Filter>Source\CookingGame\Private\Interact</Filter>
+    </ClCompile>
+    <Filter Include="Source\CookingGame\Private\Inventory">
+      <UniqueIdentifier>{4C20C1DE-4031-442B-B8DB-3DB72A0B965C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CookingGame\Private\Inventory\CaptureStudio.cpp">
+      <Filter>Source\CookingGame\Private\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CookingGame\Private\Inventory\ContainerActor.cpp">
+      <Filter>Source\CookingGame\Private\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CookingGame\Private\Inventory\InventoryComponent.cpp">
+      <Filter>Source\CookingGame\Private\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CookingGame\Private\Inventory\PickupActor.cpp">
+      <Filter>Source\CookingGame\Private\Inventory</Filter>
+    </ClCompile>
+    <Filter Include="Source\CookingGame\Public">
+      <UniqueIdentifier>{B867FCD6-ED8C-4A7C-A767-354E8635DDBD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CookingGame\Public\Character">
+      <UniqueIdentifier>{4CAD607D-E5A7-4AD8-BC82-CB6A022114F5}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\CookingGame\Public\Character\CookingGameController.h">
+      <Filter>Source\CookingGame\Public\Character</Filter>
+    </ClInclude>
+    <Filter Include="Source\CookingGame\Public\Floats">
+      <UniqueIdentifier>{CE01D6EF-779E-41CD-B6E3-34EB1EA57A88}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\CookingGame\Public\Floats\Ship.h">
+      <Filter>Source\CookingGame\Public\Floats</Filter>
+    </ClInclude>
+    <Filter Include="Source\CookingGame\Public\Interact">
+      <UniqueIdentifier>{1244A345-5BA1-48A2-BB8D-9F609B07CB98}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\CookingGame\Public\Interact\InteractableBase.h">
+      <Filter>Source\CookingGame\Public\Interact</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CookingGame\Public\Interact\InteractInterface.h">
+      <Filter>Source\CookingGame\Public\Interact</Filter>
+    </ClInclude>
+    <Filter Include="Source\CookingGame\Public\Inventory">
+      <UniqueIdentifier>{BB5A32B5-4EA9-4018-9BCD-92A78B026627}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\CookingGame\Public\Inventory\CaptureStudio.h">
+      <Filter>Source\CookingGame\Public\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CookingGame\Public\Inventory\ContainerActor.h">
+      <Filter>Source\CookingGame\Public\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CookingGame\Public\Inventory\InventoryComponent.h">
+      <Filter>Source\CookingGame\Public\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CookingGame\Public\Inventory\PickupActor.h">
+      <Filter>Source\CookingGame\Public\Inventory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
